@@ -1,6 +1,6 @@
 {
   "name": "proxylist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get free proxy list",
   "main": "proxylist.js",
   "scripts": {
