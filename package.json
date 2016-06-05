@@ -1,0 +1,34 @@
+{
+  "name": "proxylist",
+  "version": "1.0.0",
+  "description": "Get free proxy list",
+  "main": "proxylist.js",
+  "scripts": {
+    "test": "jasmine test.js",
+    "dev": "jsdoc2md proxylist.js > README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selfrefactor/proxylist.git"
+  },
+  "keywords": [
+    "proxy",
+    "scrape",
+    "list",
+    "anonymous"
+  ],
+  "author": "self_refactor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/selfrefactor/proxylist/issues"
+  },
+  "homepage": "https://github.com/selfrefactor/proxylist#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "node-fetch": "^1.5.3",
+    "scrape-it": "^3.1.1"
+  },
+  "devDependencies": {
+    "unexpected": "^10.13.3"
+  }
+}

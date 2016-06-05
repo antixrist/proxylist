@@ -1,0 +1,17 @@
+before_script: 
+  - "npm i -g jasmine"
+  - "npm install"
+  - "curl https://gist.github.com/santiycr/5139565/raw/sauce_connect_setup.sh | bash"
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+env: 
+  global: 
+    - "TIMEOUT =10000"
+  matrix: 
+    - BUILD='nocompat'
+    - BUILD='default'
+language: node_js
+node_js: 
+  - 6.2.1
+script: 
+  - "travis_retry npm test"
