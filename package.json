@@ -5,7 +5,7 @@
   "main": "proxylist.js",
   "scripts": {
     "test": "jasmine test.js",
-    "dev": "jsdoc2md proxylist.js > README.md"
+    "dev": "jsdoc2md proxylist.js > READMEsecond.md"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
     "scrape-it": "^3.1.1"
   },
   "devDependencies": {
+    "ramda": "^0.21.0",
     "unexpected": "^10.13.3"
   }
 }
