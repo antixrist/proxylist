@@ -4,7 +4,6 @@
 [![Downloads](https://img.shields.io/npm/dt/proxyneedle.svg)](https://www.npmjs.com/package/proxyneedle)
 [![npm](https://img.shields.io/npm/dm/proxyneedle.svg?maxAge=2592000?style=flat-square)]()
 [![Github All Releases](https://img.shields.io/github/downloads/selfrefactor/proxyneedle/total.svg?maxAge=2592000)]()
-[![Website](https://img.shields.io/website-up-down-green-red/http/ilearnsmarter.com.svg?maxAge=2592000?style=flat-square)]()
 [![Twitter Follow](https://img.shields.io/twitter/follow/self_refactor.svg?style=social&label=Follow&maxAge=2592000?style=flat-square)]()
 
 #Proxylist - get fresh free proxies
