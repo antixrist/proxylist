@@ -1,9 +1,10 @@
-[![Build Status](https://travis-ci.org/selfrefactor/proxyneedle.svg?branch=master)](https://travis-ci.org/selfrefactor/proxyneedle)
-[![Version](https://img.shields.io/npm/v/proxyneedle.svg)](https://www.npmjs.com/package/proxyneedle)
-[![Dependency Status](https://david-dm.org/selfrefactor/proxyneedle.svg)](https://david-dm.org/selfrefactor/proxyneedle)
-[![Downloads](https://img.shields.io/npm/dt/proxyneedle.svg)](https://www.npmjs.com/package/proxyneedle)
-[![npm](https://img.shields.io/npm/dm/proxyneedle.svg?maxAge=2592000?style=flat-square)]()
-[![Github All Releases](https://img.shields.io/github/downloads/selfrefactor/proxyneedle/total.svg?maxAge=2592000)]()
+[![Build Status](https://travis-ci.org/selfrefactor/proxylist.svg?branch=master)](https://travis-ci.org/selfrefactor/proxylist)
+[![Codecov](https://img.shields.io/codecov/c/github/selfrefactor/proxylist.svg?maxAge=2592000)]()
+[![Version](https://img.shields.io/npm/v/proxylist.svg)](https://www.npmjs.com/package/proxylist)
+[![Dependency Status](https://david-dm.org/selfrefactor/proxylist.svg)](https://david-dm.org/selfrefactor/proxylist)
+[![Downloads](https://img.shields.io/npm/dt/proxylist.svg)](https://www.npmjs.com/package/proxylist)
+[![npm](https://img.shields.io/npm/dm/proxylist.svg?maxAge=2592000?style=flat-square)]()
+[![Github All Releases](https://img.shields.io/github/downloads/selfrefactor/proxylist/total.svg?maxAge=2592000)]()
 [![Twitter Follow](https://img.shields.io/twitter/follow/self_refactor.svg?style=social&label=Follow&maxAge=2592000?style=flat-square)]()
 
 #Proxylist - get fresh free proxies
@@ -11,8 +12,8 @@
 ## Motivation
 
 I was building "proxyneedle" and I was almost ready, when the failed tests
-proved that the public fresh list I was using was Java reliable(mock intended). 
-So I have option to throw "proxyneedle" away or to scrape some websites and 
+proved that the public fresh list I was using was Java reliable(mock intended).
+So I have option to throw "proxyneedle" away or to scrape some websites and
 deliver free and fresh proxies for me and for anyone else interested in the topic.
 
 # Usage
