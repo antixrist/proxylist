@@ -1,7 +1,7 @@
 "use strict"
 const expect = require("unexpected")
 const R = require("ramda")
-const tested = require("./proxylist")
+const tested = require("./main")
 describe("proxylist", () => {
     it("main", (done) => {
         tested.main().then((incoming) => {
@@ -30,7 +30,7 @@ describe("proxylist", () => {
 })
 
 function addressFn(addressArr) {
-    
+
     let flag = true
     addressArr.map((address) => {
         let state = R.match(/(?:[0-9\.\:])/g, address)

@@ -1,35 +1,36 @@
 {
-  "name": "proxylist",
-  "version": "1.0.1",
-  "description": "Get free proxy list",
-  "main": "proxylist.js",
-  "scripts": {
-    "test": "jasmine test.js",
-    "dev": "jsdoc2md proxylist.js > READMEsecond.md"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/selfrefactor/proxylist.git"
-  },
-  "keywords": [
+    "name": "proxylist",
+    "version": "1.0.1",
+    "description": "Get free proxy list",
+    "main": "main.js",
+    "scripts": {
+        "de": "git add . --all&&git commit -m update",
+        "test": "jasmine test.js",
+        "dev": "jsdoc2md proxylist.js > READMEsecond.md"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/selfrefactor/proxylist.git"
+    },
+    "keywords": [
     "proxy",
     "scrape",
     "list",
     "anonymous"
   ],
-  "author": "self_refactor",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/selfrefactor/proxylist/issues"
-  },
-  "homepage": "https://github.com/selfrefactor/proxylist#readme",
-  "dependencies": {
-    "cheerio": "^0.20.0",
-    "node-fetch": "^1.5.3",
-    "scrape-it": "^3.1.1"
-  },
-  "devDependencies": {
-    "ramda": "^0.21.0",
-    "unexpected": "^10.13.3"
-  }
+    "author": "self_refactor",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/selfrefactor/proxylist/issues"
+    },
+    "homepage": "https://github.com/selfrefactor/proxylist#readme",
+    "dependencies": {
+        "cheerio": "^0.20.0",
+        "node-fetch": "^1.5.3",
+        "scrape-it": "^3.1.1"
+    },
+    "devDependencies": {
+        "ramda": "^0.21.0",
+        "unexpected": "^10.13.3"
+    }
 }
