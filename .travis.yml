@@ -15,3 +15,6 @@ node_js:
   - 6.2.1
 script: 
   - "travis_retry npm test"
+addons:
+    code_climate:
+        repo_token: d3f559a0b6e5a9c4f944d2bb5d833ce319e044d4adda2cc16a9948b5573d1443
