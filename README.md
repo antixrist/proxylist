@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/selfrefactor/proxylist.svg?branch=master)](https://travis-ci.org/selfrefactor/proxylist)
 [![codecov](https://codecov.io/gh/selfrefactor/proxylist/branch/master/graph/badge.svg)](https://codecov.io/gh/selfrefactor/proxylist)
+[![Code Climate](https://codeclimate.com/github/selfrefactor/proxylist/badges/gpa.svg)](https://codeclimate.com/github/selfrefactor/proxylist)
+[![Test Coverage](https://codeclimate.com/github/selfrefactor/proxylist/badges/coverage.svg)](https://codeclimate.com/github/selfrefactor/proxylist/coverage)
 [![Version](https://img.shields.io/npm/v/proxylist.svg)](https://www.npmjs.com/package/proxylist)
 [![Dependency Status](https://david-dm.org/selfrefactor/proxylist.svg)](https://david-dm.org/selfrefactor/proxylist)
 [![Downloads](https://img.shields.io/npm/dt/proxylist.svg)](https://www.npmjs.com/package/proxylist)
