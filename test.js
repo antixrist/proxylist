@@ -11,14 +11,6 @@ describe("proxylist", () => {
             done()
         })
     })
-    it("first", (done) => {
-        tested.first().then((incoming) => {
-            expect(incoming, "to be an array")
-            expect(incoming.length, "to be greater than", 10)
-            expect(addressFn(incoming), "to be", true)
-            done()
-        })
-    })
     it("second", (done) => {
         tested.second().then((incoming) => {
             expect(incoming, "to be an array")
