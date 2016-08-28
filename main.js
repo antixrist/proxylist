@@ -37,16 +37,16 @@ function main() {
      * Initiate scraping of proxy list website www.hide-my-ip.com 
      * @return {Promise} Promise => Array of proxy ip addresses with maximum length of 50
      */
-function first() {
-    return new Promise((resolve) => {
-        let url = "https://www.hide-my-ip.com/proxylist.shtml"
-        fetch(url).then(function(res) {
-            return res.text()
-        }).then(function(data) {
-            resolve(regexFn(data))
-        })
-    })
-}
+// function first() {
+//     return new Promise((resolve) => {
+//         let url = "https://www.hide-my-ip.com/proxylist.shtml"
+//         fetch(url).then(function(res) {
+//             return res.text()
+//         }).then(function(data) {
+//             resolve(regexFn(data))
+//         })
+//     })
+// }
 
     /**
      * Initiate scraping of proxy list website www.ultraproxies.com 
@@ -91,5 +91,5 @@ function regexFn(str){
 }
 
 module.exports.main = main
-module.exports.first = first
+module.exports.first = second
 module.exports.second = second
